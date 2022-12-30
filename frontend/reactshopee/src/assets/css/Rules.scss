@@ -1,0 +1,485 @@
+.react_rules {
+  &:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  &:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    color: #535258;
+    overflow-x: hidden;
+    font-family: "B Koodak", "X Koodak", Koodak, Arial;
+    > .module {
+      display: block;
+      overflow: hidden;
+      &:nth-child(odd) {
+        background-color: #f4f4f4 !important;
+      }
+      > .container {
+        position: relative;
+      }
+    }
+  }
+  nav {
+    display: block;
+    display: block;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  article {
+    display: block;
+  }
+  aside {
+    display: block;
+  }
+  details {
+    display: block;
+  }
+  figcaption {
+    display: block;
+  }
+  figure {
+    display: block;
+  }
+  footer {
+    display: block;
+  }
+  header {
+    display: block;
+  }
+  hgroup {
+    display: block;
+  }
+  main {
+    display: block;
+  }
+  section {
+    display: block;
+  }
+  summary {
+    display: block;
+  }
+  #nav {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 120;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    > .container {
+      background-color: transparent;
+      text-align: right;
+      height: 100%;
+      font-size: 0;
+      &::before {
+        vertical-align: bottom;
+        content: " ";
+        height: 100%;
+        width: 0;
+        display: inline-block;
+      }
+      > * {
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+    a {
+      display: inline-block;
+      text-align: center;
+      font-size: 18px;
+    }
+    .topMenu.home {
+      background: url(../imgs/logo_gray.png) no-repeat center;
+      background-size: contain;
+      display: inline-block;
+      width: 150px;
+      padding: 0;
+      cursor: pointer;
+      height: 70px;
+    }
+    #shopee-navigator {
+      height: 70px;
+      display: inline-block;
+      font-size: 0;
+      float: left;
+      background-color: #fff;
+      > * {
+        display: inline-block;
+        vertical-align: bottom;
+      }
+      .nav-module {
+        height: auto;
+        font-size: 0;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        padding: 0 20px;
+        padding-bottom: 15px;
+        a {
+          font-size: 15px;
+          cursor: pointer;
+          text-decoration: none;
+          color: #595959;
+          transition: all 0.2s ease-in-out;
+        }
+      }
+      &::before {
+        vertical-align: bottom;
+        content: " ";
+        height: 100%;
+        width: 0;
+        display: inline-block;
+      }
+    }
+    .icon {
+      display: inline-block;
+      margin: 0 8px;
+      background: top center no-repeat;
+      vertical-align: bottom;
+      margin-bottom: 18px;
+      padding: 0;
+    }
+    .icon.icon_facebook {
+      background-image: url(../imgs/icons.png);
+      background-position: -222px 0px;
+      width: 23px;
+      height: 23px;
+    }
+    .icon.icon_inst {
+      background-image: url(../imgs/icons.png);
+      background-position: -58px -188px;
+      width: 23px;
+      height: 23px;
+    }
+  }
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+    width: 1170px;
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  a {
+    color: #428bca;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .clearfix {
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .dl-horizontal {
+    dd {
+      &:before {
+        display: table;
+        content: " ";
+      }
+      &:after {
+        display: table;
+        content: " ";
+        clear: both;
+      }
+    }
+  }
+  .container-fluid {
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .row {
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .form-horizontal {
+    .form-group {
+      &:before {
+        display: table;
+        content: " ";
+      }
+      &:after {
+        display: table;
+        content: " ";
+        clear: both;
+      }
+    }
+  }
+  .btn-toolbar {
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .btn-group-vertical {
+    > .btn-group {
+      &:before {
+        display: table;
+        content: " ";
+      }
+      &:after {
+        display: table;
+        content: " ";
+        clear: both;
+      }
+    }
+  }
+  .nav {
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .navbar {
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .navbar-header {
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .navbar-collapse {
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .pager {
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .panel-body {
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .modal-footer {
+    &:before {
+      display: table;
+      content: " ";
+    }
+    &:after {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  #tofContent {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .legal_doc_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px auto;
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0 0 10px;
+  }
+  #module_download {
+    height: inherit;
+    text-align: center;
+    padding-bottom: 10px;
+    .appLogo {
+      margin: 100px auto 20px auto;
+      background: url(../imgs/appLogo.png) no-repeat center center;
+      height: 190px;
+    }
+    .qrCode {
+      width: 128px;
+      height: 128px;
+      display: inline-block;
+      margin-right: 15px;
+      background-size: contain;
+      border: 5px solid #fff;
+      border-radius: 5px;
+      background-repeat: no-repeat;
+      background-color: #fff;
+      background-position: center center;
+    }
+  }
+  .module {
+    > .container {
+      position: relative;
+      height: 100%;
+    }
+    .moduleSubTitle {
+      margin: 20px auto 30px auto;
+      font-size: 24px;
+      color: #494751;
+    }
+  }
+  .qrCode {
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+    margin-right: 15px;
+    background: url(https://cdngarenanow-a.akamaihd.net/gmc/official_web_site/web_static/categorized/vi/images/pc/qrCode.png)
+      no-repeat #fff center;
+    background-size: contain;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #999;
+  }
+  .downloadLinks {
+    display: inline-block;
+    height: 130px !important;
+    width: 215px;
+    overflow: hidden;
+    .download {
+      background: no-repeat;
+      background-size: 100%;
+      border-radius: 5px;
+      display: inline-block;
+      width: 215px;
+      height: 60px;
+      background-position: center;
+    }
+    .download.appleStore {
+      background-image: url(../imgs/appleStore.png);
+    }
+    .download.googlePlay {
+      background-image: url(../imgs/googlePlay.png);
+    }
+  }
+  #footer {
+    height: 70px;
+    background-color: #a6a6a6;
+    #footerLinks {
+      display: inline-flex;
+      height: 100%;
+      justify-content: space-around;
+      align-items: center;
+      a {
+        color: #fff;
+        font-size: 16px;
+        margin: 0 10px;
+        padding: 0 5px;
+        text-align: center;
+        position: relative;
+        height: 100%;
+        align-items: center;
+        line-height: 70px;
+        &::after {
+          position: absolute;
+          bottom: 30%;
+          left: 0;
+          content: " ";
+          width: 100%;
+          height: 1px;
+          border-bottom: 1px dotted #fff !important;
+          transition: all 0.2s ease-in-out;
+        }
+      }
+    }
+  }
+  #addressAtFooter {
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+    display: block;
+  }
+}

@@ -1,0 +1,591 @@
+.react_sell {
+  html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    --font-weight: 500;
+    font-family: Roboto, Helvetica Neue, Helvetica, Droid Sans, Arial,
+      sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    button {
+      font-family: Roboto, Helvetica Neue, Helvetica, Droid Sans, Arial,
+        sans-serif;
+    }
+  }
+  &:root {
+    --refunded: #ccc;
+    --chatbot-brand: #ee4d2d;
+    --chatbot-gray-1: #333;
+    --chatbot-gray-2: rgba(0, 0, 0, 0.65);
+    --chatbot-gray-3: rgba(0, 0, 0, 0.54);
+    --chatbot-gray-4: rgba(0, 0, 0, 0.4);
+    --chatbot-gray-5: rgba(0, 0, 0, 0.26);
+    --chatbot-gray-6: rgba(0, 0, 0, 0.09);
+    --chatbot-gray-7: rgba(0, 0, 0, 0.06);
+    --chatbot-light-1: #eee;
+    --chatbot-light-2: hsla(0, 0%, 100%, 0.87);
+    --chatbot-white: #fff;
+    --chatbot-black: #000;
+    --chatbot-blue: #2673dd;
+  }
+  html.VN {
+    --font-weight: 600 !important;
+    font-family: Helvetica Neue, Helvetica, RobotoRegular, Droid Sans, Arial,
+      sans-serif;
+    font-family: Helvetica Neue, Helvetica, RobotoRegular, Droid Sans, Arial,
+      sans-serif;
+    button {
+      font-family: Helvetica Neue, Helvetica, RobotoRegular, Droid Sans, Arial,
+        sans-serif;
+      font-family: Helvetica Neue, Helvetica, RobotoRegular, Droid Sans, Arial,
+        sans-serif;
+    }
+  }
+  body {
+    margin: 0;
+    font-size: 14px;
+    background: #f6f6f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  abbr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  aside {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  audio {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  canvas {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  code {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  dd {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  del {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  dl {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  dt {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  h4 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  h5 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  i {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  legend {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  menu {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  ol {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  pre {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  tbody {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  tfoot {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  th {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  thead {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  &:not(input) {
+    &:not(textarea) {
+      -webkit-tap-highlight-color: transparent;
+      -webkit-tap-highlight-color: transparent;
+    }
+  }
+  .onboarding-page[data-v-55869c48] {
+    padding-top: 56px;
+    min-width: 1264px;
+    margin: 0 auto;
+  }
+  .header[data-v-b6c6e05e] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    z-index: 1;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 7%);
+    background-color: #fff;
+    z-index: 100001;
+  }
+  .header {
+    .header-wrapper[data-v-b6c6e05e] {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header-logo[data-v-b6c6e05e] {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      margin-left: 16px;
+    }
+    .header-logo {
+      .icon[data-v-b6c6e05e] {
+        width: 100px;
+        height: 30px;
+        fill: #ee4d2d;
+        margin-top: -8px;
+      }
+      .title[data-v-b6c6e05e] {
+        font-size: 18px;
+        color: #1d1d1d;
+        margin-top: 2px;
+        margin-left: 5px;
+        font-weight: 500;
+      }
+    }
+    .header-user[data-v-b6c6e05e] {
+      display: flex;
+      align-items: center;
+    }
+    .header-user {
+      .user[data-v-b6c6e05e] {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 4px 16px 4px 4px;
+      }
+      .user {
+        .avatar[data-v-b6c6e05e] {
+          display: inline-block;
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          margin-right: 6px;
+        }
+        .username[data-v-b6c6e05e] {
+          font-size: 14px;
+          color: #333;
+          font-weight: 400;
+        }
+        .arrow-icon[data-v-b6c6e05e] {
+          width: 16px;
+          height: 16px;
+          margin-left: 4px;
+        }
+        .arrow-icon.down[data-v-b6c6e05e] {
+          display: block;
+        }
+      }
+    }
+  }
+  .shopee-popover {
+    display: inline-block;
+    display: inline-block;
+  }
+  .shopee-popover__ref {
+    display: inline-block;
+    display: inline-block;
+  }
+  .shopee-icon {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: inline-block;
+    line-height: 0;
+    fill: currentColor;
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .welcome[data-v-0c861202] {
+    width: 100%;
+    height: 100%;
+    padding-top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card[data-v-0c861202] {
+    width: 1264px;
+    background: #fff;
+    margin: 16px auto;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    padding: 24px;
+    text-align: center;
+  }
+  .onboarding-welcome {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 24px auto 32px;
+    width: 352px;
+  }
+  .onboarding-welcome__img {
+    height: 200px;
+    width: 200px;
+  }
+  .onboarding-welcome__title {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 32px 0 16px;
+    text-align: center;
+  }
+  .onboarding-welcome__desc {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 24px;
+    margin-top: 0;
+    text-align: center;
+  }
+  .shopee-button {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    min-width: 72px;
+    padding: 0 16px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    &:before {
+      position: absolute;
+      top: -1px;
+      right: -1px;
+      bottom: -1px;
+      left: -1px;
+      border-radius: inherit;
+      content: "";
+    }
+    span {
+      line-height: 1;
+      vertical-align: middle;
+    }
+  }
+  .shopee-button--primary {
+    color: #fff;
+    background-color: #ee4d2d;
+    border-color: #ee4d2d;
+  }
+}

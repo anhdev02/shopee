@@ -1,0 +1,347 @@
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+body {
+    color: #535258;
+    overflow-x: hidden;
+    font-family: "B Koodak","X Koodak",Koodak,Arial;
+}
+
+nav {
+    display: block;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 120;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    width: 1170px;
+}
+
+#nav>.container {
+    background-color: transparent;
+    text-align: right;
+    height: 100%;
+    font-size: 0;
+}
+
+#nav>.container::before {
+    vertical-align: bottom;
+    content: ' ';
+    height: 100%;
+    width: 0;
+    display: inline-block;
+}
+
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+#nav a {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+}
+
+#nav>.container>* {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#nav .topMenu.home {
+    background: url(../imgs/logo_gray.png) no-repeat center;
+    background-size: contain;
+    display: inline-block;
+    width: 150px;
+    padding: 0;
+    cursor: pointer;
+    height: 70px;
+}
+
+#nav #shopee-navigator {
+    height: 70px;
+    display: inline-block;
+    font-size: 0;
+    float: left;
+    background-color: #fff;
+}
+
+#nav #shopee-navigator>* {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#nav #shopee-navigator .nav-module {
+    height: auto;
+    font-size: 0;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 0 20px;
+    padding-bottom: 15px;
+}
+
+#nav #shopee-navigator .nav-module a {
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #595959;
+    transition: all 0.2s ease-in-out;
+}
+
+#nav .icon {
+    display: inline-block;
+    margin: 0 8px;
+    background: top center no-repeat;
+    vertical-align: bottom;
+    margin-bottom: 18px;
+    padding: 0;
+}
+
+#nav .icon.icon_facebook {
+    background-image: url(../imgs/icons.png);
+    background-position: -222px 0px;
+    width: 23px;
+    height: 23px;
+}
+
+#nav .icon.icon_inst{
+    background-image: url(../imgs/icons.png);
+    background-position: -58px -188px;
+    width: 23px;
+    height: 23px;
+}
+
+
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical>.btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-footer:after {
+    clear: both;
+}
+.container {
+    width: 1170px;
+}
+
+#tofContent {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.legal_doc_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+body>.module {
+    display: block;
+    overflow: hidden;
+}
+
+body>.module:nth-child(odd) {
+    background-color: #f4f4f4 !important;
+}
+
+#module_download {
+    height: inherit;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.module>.container {
+    position: relative;
+    height: 100%;
+}
+
+body>.module>.container {
+    position: relative;
+}
+
+#module_download .appLogo {
+    margin: 100px auto 20px auto;
+    background: url(../imgs/appLogo.png) no-repeat center center;
+    height: 190px;
+}
+.module .moduleSubTitle {
+    margin: 20px auto 30px auto;
+    font-size: 24px;
+    color: #494751;
+}
+
+.qrCode {
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+    margin-right: 15px;
+    background: url(https://cdngarenanow-a.akamaihd.net/gmc/official_web_site/web_static/categorized/vi/images/pc/qrCode.png) no-repeat #fff center;
+    background-size: contain;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #999;
+}
+
+#module_download .qrCode {
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+    margin-right: 15px;
+    background-size: contain;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center center;
+}
+
+.downloadLinks {
+    display: inline-block;
+}
+
+.downloadLinks {
+    height: 130px !important;
+    width: 215px;
+    overflow: hidden;
+}
+
+.downloadLinks .download {
+    background: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    width: 215px;
+    height: 60px;
+    background-position: center;
+}
+
+.downloadLinks .download.appleStore {
+    background-image: url(../imgs/appleStore.png);
+}
+
+.downloadLinks .download.googlePlay {
+    background-image: url(../imgs/googlePlay.png);
+}
+
+#footer {
+    height: 70px;
+    background-color: #a6a6a6;
+}#footer #footerLinks {
+    display: inline-flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer #footerLinks a {
+    color: #fff;
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 0 5px;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    line-height: 70px;
+}
+
+#footer #footerLinks a::after {
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dotted #FFF !important;
+    transition: all 0.2s ease-in-out;
+}
+
+#addressAtFooter {
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+    display: block;
+}
+
+#nav #shopee-navigator::before {
+    vertical-align: bottom;
+    content: ' ';
+    height: 100%;
+    width: 0;
+    display: inline-block;
+}
+
+

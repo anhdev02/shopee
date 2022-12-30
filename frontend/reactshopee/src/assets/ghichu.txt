@@ -1,0 +1,33 @@
+trang chủ: xong
+	trang about: xong
+		trang tại sao bạn chọn shopper: xong
+		việt làm: xong
+		sinh viên: xong
+		công nghệ: xong
+		sự kiện: xong
+		blog: xong
+
+trang kênh người bán: xong
+	đăng nhập: xong
+
+trang tải app: xong
+trang sản phẩm chính hãng: xong
+	thể thao: xong
+	ô tô, xe máy: xong
+	bách hóa: xong
+	nhà cửa: xong
+	sắc đẹp: xong
+
+trang đăng ký: xong
+trang đăng nhập: xong
+quên mật khẩu: xong
+đăng nhập sms: xong
+trang hỗ trợ: xong
+điều khoản:xong
+bảo mật:xong
+
+trang sản phẩm: xong
+trang chi tiết sản phẩm: xong
+trang giỏ hàng: xong
+mua hàng: xong
+
